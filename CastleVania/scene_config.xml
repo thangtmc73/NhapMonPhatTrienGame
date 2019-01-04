@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+  <stage path_config="Stage2_1.xml" mapWidth="1536" />
+  <stage path_config="Stage2_2.xml" mapWidth="1536" />
+
+  <stage path_config="Stage3.xml" mapWidth="1536" />
+
+
+  <stage path_config="Stage1_2.xml" mapWidth="3584" />
+  <stage path_config="Stage2_2.xml" mapWidth="1536" />
+
+
+  <stage path_config="Stage1_1.xml" mapWidth="1536" />
+
+  <stage path_config="Stage2_3.xml" mapWidth="1536" />
+
+
+
+
+
+
+
+
+  <stage path_config="Stage1_1.xml" mapWidth="1536" />
+
+
+
+  <stage path_config="Stage2_1.xml" mapWidth="1536" />
+
+
+
+
+
+
+  <stage path_config="Stage1_2.xml" mapWidth="3584" />
+
+
+
+
+
+
+
+
+
+
+
+
+</scene>

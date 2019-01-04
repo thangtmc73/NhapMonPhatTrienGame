@@ -1,0 +1,40 @@
+<ground x="16" y="74" type="901" cols="48" rows="1" zIndex="0" />
+<ground x="16" y="268" type="901" cols="7" rows="1" zIndex="0" />
+<ground x="272" y="203" type="901" cols="11" rows="1" zIndex="0" />
+<ground x="1360" y="140" type="901" cols="2" rows="1" zIndex="0" />
+<ground x="1456" y="205" type="901" cols="3" rows="1" zIndex="0" />
+<ground x="1529" y="181" type="903" cols="1" rows="6" zIndex="0" />
+<ground x="1529" y="405" type="903" cols="1" rows="6" zIndex="0" />
+<ground x="8" y="405" type="903" cols="1" rows="20" zIndex="0" />
+<ground x="272" y="236" type="904" cols="1" rows="2" zIndex="0" />
+<ground x="720" y="108" type="904" cols="1" rows="4" zIndex="0" />
+<ground x="1392" y="172" type="904" cols="0" rows="2" zIndex="0" />
+<object x="190" y="330" type="605" left_direction="1" zIndex="0" />
+<object x="95" y="200" type="608" left_direction="1" zIndex="0" />
+<object x="322" y="265" type="605" left_direction="0" zIndex="0" />
+<object x="446" y="330" type="614" left_direction="0" zIndex="0" />
+<object x="575" y="138" type="605" left_direction="1" zIndex="0" />
+<object x="697" y="200" type="615" left_direction="0" zIndex="0" />
+<object x="832" y="138" type="605" left_direction="1" zIndex="0" />
+<object x="960" y="138" type="605" left_direction="1" zIndex="0" />
+<object x="1088" y="200" type="608" left_direction="1" zIndex="0" />
+<object x="1216" y="138" type="605" left_direction="1" zIndex="0" />
+<object x="1344" y="200" type="605" left_direction="1" zIndex="0" />
+<object x="1472" y="200" type="608" left_direction="1" zIndex="0" />
+<object x="416" y="415" type="616" left_direction="1" zIndex="0" />
+<object x="672" y="415" type="616" left_direction="1" zIndex="0" />
+<object x="32" y="479" type="1009" left_direction="1" zIndex="0" />
+<object x="992" y="351" type="1000" left_direction="1" zIndex="0" />
+<object x="800" y="220" type="1000" left_direction="1" zIndex="0" />
+<object x="1056" y="220" type="1000" left_direction="1" zIndex="0" />
+<object x="1184" y="220" type="1000" left_direction="1" zIndex="0" />
+<object x="1440" y="220" type="1000" left_direction="1" zIndex="0" />
+<object x="288" y="284" type="1004" left_direction="1" zIndex="0" />
+<object x="928" y="284" type="1013" left_direction="1" zIndex="0" />
+<object x="1312" y="284" type="1004" left_direction="1" zIndex="0" />
+<object x="1568" y="284" type="1000" left_direction="1" zIndex="0" />
+<object x="1696" y="284" type="1004" left_direction="1" zIndex="0" />
+<object x="160" y="41" type="1000" left_direction="1" zIndex="0" />
+<object x="416" y="415" type="1000" left_direction="1" zIndex="0" />
+<object x="672" y="415" type="1000" left_direction="1" zIndex="0" />
+<object x="1250" y="390" type="401" left_direction="1" zIndex="0" />

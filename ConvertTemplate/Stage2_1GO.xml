@@ -1,0 +1,29 @@
+<ground x="16" y="74" type="901" cols="3" rows="1" zIndex="0" />
+<ground x="144" y="74" type="901" cols="12" rows="1" zIndex="0" />
+<ground x="520" y="82" type="903" cols="8" rows="2" zIndex="0" />
+<ground x="520" y="242" type="903" cols="8" rows="1" zIndex="0" />
+<ground x="520" y="226" type="903" cols="1" rows="5" zIndex="0" />
+<ground x="656" y="74" type="901" cols="3" rows="1" zIndex="0" />
+<ground x="272" y="204" type="901" cols="3" rows="1" zIndex="0" />
+<ground x="656" y="234" type="901" cols="2" rows="1" zIndex="0" />
+<ground x="720" y="202" type="901" cols="3" rows="1" zIndex="0" />
+<ground x="849" y="267" type="901" cols="13" rows="1" zIndex="0" />
+<ground x="464" y="107" type="904" cols="1" rows="4" zIndex="0" />
+<ground x="912" y="107" type="904" cols="1" rows="4" zIndex="0" />
+<ground x="8" y="244" type="903" cols="1" rows="10" zIndex="0" />
+<ground x="16" y="267" type="901" cols="8" rows="1" zIndex="0" />
+<ground x="8" y="404" type="903" cols="1" rows="2" zIndex="0" />
+<ground x="784" y="74" type="901" cols="8" rows="1" zIndex="0" />
+<ground x="536" y="210" type="903" cols="1" rows="3" zIndex="0" />
+<ground x="552" y="226" type="903" cols="3" rows="9" zIndex="0" />
+<ground x="616" y="226" type="903" cols="2" rows="9" zIndex="0" />
+<ground x="600" y="210" type="903" cols="1" rows="3" zIndex="0" />
+<ground x="600" y="146" type="903" cols="1" rows="3" zIndex="0" />
+<object x="192" y="331" type="608" left_direction="1" zIndex="0" />
+<object x="322" y="363" type="605" left_direction="1" zIndex="0" />
+<object x="607" y="363" type="608" left_direction="1" zIndex="0" />
+<object x="63" y="138" type="607" left_direction="1" zIndex="0" />
+<object x="452" y="203" type="605" left_direction="1" zIndex="0" />
+<object x="706" y="138" type="605" left_direction="1" zIndex="0" />
+<object x="960" y="331" type="605" left_direction="1" zIndex="0" />
+<object x="835" y="395" type="610" left_direction="1" zIndex="0" />

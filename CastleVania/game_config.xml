@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gameconfig>
+  <window>
+    <game-title>Castle Vania</game-title>
+    <is-full-screen>0</is-full-screen>
+    <window-height>480</window-height>
+    <window-width>515</window-width>
+    <frame-rate>30</frame-rate>
+  </window>
+  <object-info>
+    <item name="csimon" textureName="csimon" frameHeight="66" frameWidth="60" cols="8" rows="3" numberFrame="24" boundingBoxWidth="58" boundingBoxHeight="58" />
+    <item name="cghoul" textureName="cghoul" frameHeight="64" frameWidth="32" cols="2" rows="1" numberFrame="2" boundingBoxWidth="32" boundingBoxHeight="64" />
+    <item name="cpanther" textureName="cpanther" frameHeight="32" frameWidth="64" cols="4" rows="1" numberFrame="4" boundingBoxWidth="64" boundingBoxHeight="32" />
+    <item name="clargeheart" textureName="clargeheart" frameHeight="20" frameWidth="24" cols="1" rows="1" numberFrame="1" boundingBoxWidth="24" boundingBoxHeight="20" />
+    <item name="csmallheart" textureName="csmallheart" frameHeight="16" frameWidth="16" cols="1" rows="1" numberFrame="1" boundingBoxWidth="16" boundingBoxHeight="16" />
+    <item name="cbigcandle" textureName="cbigcandle" frameHeight="64" frameWidth="32" cols="2" rows="1" numberFrame="2" boundingBoxWidth="32" boundingBoxHeight="64" />
+    <item name="caxe" textureName="caxe" frameHeight="30" frameWidth="28" cols="1" rows="1" numberFrame="1" boundingBoxWidth="28" boundingBoxHeight="30" />
+    <item name="caxebullet" textureName="caxebullet" frameHeight="30" frameWidth="28" cols="4" rows="1" numberFrame="4" boundingBoxWidth="28" boundingBoxHeight="30" />
+    <item name="cdagger" textureName="cdagger" frameHeight="18" frameWidth="32" cols="1" rows="1" numberFrame="1" boundingBoxWidth="32" boundingBoxHeight="18" />
+    <item name="cwhipupgrade" textureName="cwhipupgrade" frameHeight="32" frameWidth="32" cols="1" rows="1" numberFrame="1" boundingBoxWidth="32" boundingBoxHeight="32" />
+    <item name="cwhip1" textureName="cwhip" frameHeight="66" frameWidth="160" cols="3" rows="3" numberFrame="9" boundingBoxWidth="90" boundingBoxHeight="18" />
+    <item name="cwhip2" textureName="cwhip" frameHeight="66" frameWidth="160" cols="3" rows="3" numberFrame="9" boundingBoxWidth="80" boundingBoxHeight="18" />
+    <item name="cwhip3" textureName="cwhip" frameHeight="66" frameWidth="160" cols="3" rows="3" numberFrame="9" boundingBoxWidth="18" boundingBoxHeight="18" />
+    <item name="cfishman" textureName="cfishman" frameHeight="64" frameWidth="32" cols="2" rows="1" numberFrame="2" boundingBoxWidth="32" boundingBoxHeight="64" />
+    <item name="clittlecandle" textureName="clittlecandle" frameHeight="32" frameWidth="16" cols="2" rows="1" numberFrame="2" boundingBoxWidth="16" boundingBoxHeight="32" />
+    <item name="cgate" textureName="cgate" frameHeight="96" frameWidth="48" cols="3" rows="1" numberFrame="3" boundingBoxWidth="96" boundingBoxHeight="48" />
+    <item name="cstair_1" textureName="cstair_1" frameHeight="" frameWidth="" numberFrame="" boundingBoxWidth="" boundingBoxHeight="" />
+    <item name="cstair_2" textureName="cstair_2" frameHeight="" frameWidth="" numberFrame="" boundingBoxWidth="" boundingBoxHeight="" />
+    <item name="cghost" textureName="cghost" frameHeight="28" frameWidth="28" cols="2" rows="1" numberFrame="2" boundingBoxWidth="28" boundingBoxHeight="28" />
+    <item name="cbossbat" textureName="cbossbat" frameHeight="32" frameWidth="32" cols="1" rows="1" numberFrame="1" boundingBoxWidth="32" boundingBoxHeight="32" />
+    <item name="cbrick_1" textureName="cbrick_1" frameHeight="32" frameWidth="32" cols="1" rows="1" numberFrame="1" boundingBoxWidth="32" boundingBoxHeight="32" />
+    <item name="cbrick_2" textureName="cbrick_2" frameHeight="32" frameWidth="32" cols="1" rows="1" numberFrame="1" boundingBoxWidth="32" boundingBoxHeight="32" />
+    <item name="cbrick_3" textureName="cbrick_3" frameHeight="32" frameWidth="32" cols="1" rows="1" numberFrame="1" boundingBoxWidth="32" boundingBoxHeight="32" />
+    <item name="ccrystalball" textureName="ccrystalball" frameHeight="" frameWidth="" numberFrame="" boundingBoxWidth="" boundingBoxHeight="" />
+    <item name="cholywater" textureName="ccholywatersimon" frameHeight="" frameWidth="" numberFrame="" boundingBoxWidth="" boundingBoxHeight="" />
+    <item name="chiddenobject" textureName="" frameHeight="32" frameWidth="32" boundingBoxWidth="32" boundingBoxHeight="32" />
+    <item name="cbossbat" textureName="cbossbat" frameHeight="46" frameWidth="100" cols="3" rows="1" numberFrame="3" boundingBoxWidth="100" boundingBoxHeight="46" />
+    <item name="ccross" textureName="ccross" frameHeight="32" frameWidth="32" cols="1" rows="1" numberFrame="1" boundingBoxWidth="32" boundingBoxHeight="32" />
+    <item name="cdaggerbullet" textureName="cdagger" frameHeight="18" frameWidth="32" cols="1" rows="1" numberFrame="1" boundingBoxWidth="32" boundingBoxHeight="18" />
+    <item name="cmoneybag" textureName="cmoneybag" frameHeight="30" frameWidth="30" cols="3" rows="1" numberFrame="3" boundingBoxWidth="30" boundingBoxHeight="30" />
+    <item name="cbat" textureName="cbat" frameHeight="32" frameWidth="32" cols="4" rows="1" numberFrame="4" boundingBoxWidth="32" boundingBoxHeight="32" />
+    <!-- con money bag -->
+  </object-info>
+  <constant>
+    <string name="game-title">Castle Vania</string>
+    <integer name="is-full-screen">0</integer>
+    <integer name="window-height">480</integer>
+    <integer name="window-width">515</integer>
+    <integer name="frame-rate">30</integer>
+    <float name="gravity">0.0015</float>
+    <float name="simon-jump-vy">0.49</float>
+    <float name="simon-jump-vx">0.1</float>
+    <float name="simon-damaged-vx">0.085</float>
+    <float name="simon-damaged-vy">0.3</float>
+    <float name="simon-run-vx">0.07</float>
+    <integer name="simon-time-shot">200</integer>
+    <float name="enemy-default-vx">0.07</float>
+    <float name="dagger-vx">0.2</float>
+    <float name="axe-vx">0.2</float>
+    <float name="axe-vy">0.6</float>
+    <float name="time-simon-damaged">400</float>
+    <float name="distance-y-bat-initial">-100</float>
+    <float name="bat-vx">0.05</float>
+    <float name="bat-vy">0.06</float>
+    <integer name="bat-number-actions-update">4</integer>
+    <integer name="red-money-bag-points">100</integer>
+    <integer name="purple-money-bag-points">400</integer>
+    <integer name="white-money-bag-points">700</integer>
+    <integer name="special-money-bag-points">1000</integer>
+    <integer name="small-heart-number-hearts-increase">1</integer>
+    <integer name="large-heart-number-hearts-increase">5</integer>
+    <float name="small-heart-distance-move">5</float>
+    <integer name="small-heart-cycle-time">5</integer>
+    <float name="red-bat-distance-move">60</float>
+    <integer name="red-bat-cycle-time">1200</integer>
+    <float name="red-bat-vx">0.0</float>
+    <float name="panther-jump-vy">0.12</float>
+    <float name="panther-vx">0.155</float>
+    <float name="panther-distance-near-simon">100</float>
+    <float name="fishman-vx">0.055</float>
+    <float name="distance-choose-target">100</float>
+    <integer name="bat-time-action">1000</integer>
+    <integer name="bat-time-between-actions">300</integer>
+    <integer name="bat-limit-left">300</integer>
+    <integer name="bat-limit-right">1200</integer>
+    <integer name="bat-limit-top">400</integer>
+    <integer name="bat-limit-bottom">130</integer>
+
+    <float name="bat-default-y">100</float>
+
+  </constant>
+  <textures>
+    <texture name="stage1_1bg">statemapTSLevel1.png</texture>
+    <texture name="csimon">simon.png</texture>
+    <texture name="cghoul">ghoul.png</texture>
+    <texture name="cpanther">panther.png</texture>
+    <texture name="clargeheart">largeheart.png</texture>
+    <texture name="csmallheart">smallheart.png</texture>
+    <texture name="cmoneybag">moneybag.png</texture>
+    <texture name="cbigcandle">bigcandle.png</texture>
+    <texture name="caxe">axe.png</texture>
+    <texture name="caxebullet">axebullet.png</texture>
+    <texture name="cdagger">dagger.png</texture>
+    <texture name="cwhipupgrade">whipupgrade.png</texture>
+    <texture name="cwhip">whip.png</texture>
+    <texture name="cfishman">fishman.png</texture>
+    <texture name="clittlecandle">littlecandle.png</texture>
+    <texture name="cgate">gate.png</texture>
+    <texture name="cstair_1">stair_1.png</texture>
+    <texture name="cstair_2">stair_2.png</texture>
+    <texture name="cghost">ghost.png</texture>
+    <texture name="cbossbat">boss_VampireBat.png</texture>
+    <texture name="cbrick_1">brick_1.png</texture>
+    <texture name="cbrick_2">brick_2.png</texture>
+    <texture name="cbrick_3">brick_3.png</texture>
+    <texture name="ccrystalball">crystalball.png</texture>
+    <texture name="cholywater">holywater.png</texture>
+    <texture name="cbat">phantombat.png</texture>
+    <texture name="ccross">cross.png</texture>
+  </textures>
+</gameconfig>

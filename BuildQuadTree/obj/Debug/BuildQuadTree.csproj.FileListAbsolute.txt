@@ -1,0 +1,13 @@
+C:\Users\TienBui\Desktop\BuildQuadTree\BuildQuadTree\bin\Debug\BuildQuadTree.exe.config
+C:\Users\TienBui\Desktop\BuildQuadTree\BuildQuadTree\bin\Debug\BuildQuadTree.exe
+C:\Users\TienBui\Desktop\BuildQuadTree\BuildQuadTree\bin\Debug\BuildQuadTree.pdb
+C:\Users\TienBui\Desktop\BuildQuadTree\BuildQuadTree\obj\Debug\BuildQuadTree.exe
+C:\Users\TienBui\Desktop\BuildQuadTree\BuildQuadTree\obj\Debug\BuildQuadTree.pdb
+C:\Users\TienBui\Desktop\BuildQuadTree\BuildQuadTree\obj\Debug\BuildQuadTree.csprojResolveAssemblyReference.cache
+E:\castlevania-lamnhom\BuildQuadTree\bin\Debug\BuildQuadTree.exe.config
+E:\castlevania-lamnhom\BuildQuadTree\bin\Debug\BuildQuadTree.exe
+E:\castlevania-lamnhom\BuildQuadTree\bin\Debug\BuildQuadTree.pdb
+E:\castlevania-lamnhom\BuildQuadTree\obj\Debug\BuildQuadTree.csprojAssemblyReference.cache
+E:\castlevania-lamnhom\BuildQuadTree\obj\Debug\BuildQuadTree.csproj.CoreCompileInputs.cache
+E:\castlevania-lamnhom\BuildQuadTree\obj\Debug\BuildQuadTree.exe
+E:\castlevania-lamnhom\BuildQuadTree\obj\Debug\BuildQuadTree.pdb

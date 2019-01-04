@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{43E5970D-2710-4602-A295-5385C0F9F8C6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CastleVania</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>E:\castlevania-lamnhom\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\castlevania-lamnhom\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)Game\Quadtree\;$(ProjectDir)Game\SharedPosition\;$(ProjectDir)Game\Simon\;$(ProjectDir)Game\Object\General\;$(ProjectDir)Game\Object\Weapon\;$(ProjectDir)Game\Object\Item\;$(ProjectDir)Game\Object\Ground\;$(ProjectDir)Game\Object\Effect\;$(ProjectDir)Game\Object\Enemy\;$(ProjectDir)Game\Object\;$(ProjectDir)Game\Scene\Level 2\Stage 6;$(ProjectDir)Game\Scene\Level 2\Stage 5;$(ProjectDir)Game\Scene\Level 2\Stage 4;$(ProjectDir)Game\Scene\Level 2\;$(ProjectDir)Game\Scene\Level 1\Stage 3\;$(ProjectDir)Game\Scene\Level 1\Stage 2\;$(ProjectDir)Game\Scene\Level 1\Stage 1\;$(ProjectDir)Game\Scene\Level 1\;$(ProjectDir)Game\Scene\Before Playing\;$(ProjectDir)Game\Scene\;$(ProjectDir)Game\;$(ProjectDir)Framework\;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxerr.lib;dsound.lib;dxguid.lib;winmm.lib;dinput8.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Axe.cpp" />
+    <ClCompile Include="AxeBullet.cpp" />
+    <ClCompile Include="BigCandle.cpp" />
+    <ClCompile Include="BossBat.cpp" />
+    <ClCompile Include="Cross.cpp" />
+    <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="MainWeapon.cpp" />
+    <ClCompile Include="PurpleMoneyBag.cpp" />
+    <ClCompile Include="Brick.cpp" />
+    <ClCompile Include="BrickItem.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="BulletManager.cpp" />
+    <ClCompile Include="CrystalBall.cpp" />
+    <ClCompile Include="Dagger.cpp" />
+    <ClCompile Include="DaggerBullet.cpp" />
+    <ClCompile Include="DynamicObject.cpp" />
+    <ClCompile Include="EffectBrickBroken.cpp" />
+    <ClCompile Include="EffectDestroyedItem.cpp" />
+    <ClCompile Include="EffectManager.cpp" />
+    <ClCompile Include="EffectWaterSplashed.cpp" />
+    <ClCompile Include="Fishman.cpp" />
+    <ClCompile Include="GameOverScene.cpp" />
+    <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="Gate.cpp" />
+    <ClCompile Include="GAudio.cpp" />
+    <ClCompile Include="GCamera.cpp" />
+    <ClCompile Include="dsutil.cpp" />
+    <ClCompile Include="Ghost.cpp" />
+    <ClCompile Include="Ghoul.cpp" />
+    <ClCompile Include="GInputManager.cpp" />
+    <ClCompile Include="Ground.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="GScene.cpp" />
+    <ClCompile Include="GSystem.cpp" />
+    <ClCompile Include="HiddenObject.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="HolyWater.cpp" />
+    <ClCompile Include="InfoManager.cpp" />
+    <ClCompile Include="LargeHeart.cpp" />
+    <ClCompile Include="LittleCandle.cpp" />
+    <ClCompile Include="MoneyBag.cpp" />
+    <ClCompile Include="ObjectManager.cpp" />
+    <ClCompile Include="Panther.cpp" />
+    <ClCompile Include="GQuadTree.cpp" />
+    <ClCompile Include="Bat.cpp" />
+    <ClCompile Include="QNode.cpp" />
+    <ClCompile Include="RAnimation.cpp" />
+    <ClCompile Include="RBaseObject.cpp" />
+    <ClCompile Include="RCamera.cpp" />
+    <ClCompile Include="Resources.cpp" />
+    <ClCompile Include="RGameScene.cpp" />
+    <ClCompile Include="RGrid.cpp" />
+    <ClCompile Include="RObject.cpp" />
+    <ClCompile Include="RObjectManager.cpp" />
+    <ClCompile Include="RSprite.cpp" />
+    <ClCompile Include="RTexture.cpp" />
+    <ClCompile Include="RTiledBG.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="SharedPosition.cpp" />
+    <ClCompile Include="SmallHeart.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="SpecialMoneyBag.cpp" />
+    <ClCompile Include="Stage1_2.cpp" />
+    <ClCompile Include="Stage2_1.cpp" />
+    <ClCompile Include="Stage2_2.cpp" />
+    <ClCompile Include="Stage3.cpp" />
+    <ClCompile Include="Stair.cpp" />
+    <ClCompile Include="StartGame.cpp" />
+    <ClCompile Include="Stage1_1.cpp" />
+    <ClCompile Include="Global.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="GSprite.cpp" />
+    <ClCompile Include="GTexture.cpp" />
+    <ClCompile Include="Simon.cpp" />
+    <ClCompile Include="GTiledBG.cpp" />
+    <ClCompile Include="Introduction.cpp" />
+    <ClCompile Include="StaticObject.cpp" />
+    <ClCompile Include="StatusBar.cpp" />
+    <ClCompile Include="StopWatch.cpp" />
+    <ClCompile Include="Text.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="TinyXML\tinystr.cpp" />
+    <ClCompile Include="TinyXML\tinyxml.cpp" />
+    <ClCompile Include="TinyXML\tinyxmlerror.cpp" />
+    <ClCompile Include="TinyXML\tinyxmlparser.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+    <ClCompile Include="WhipUpgrade.cpp" />
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="Whip.cpp" />
+    <ClCompile Include="WhiteMoneyBag.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Axe.h" />
+    <ClInclude Include="AxeBullet.h" />
+    <ClInclude Include="BigCandle.h" />
+    <ClInclude Include="BossBat.h" />
+    <ClInclude Include="Cross.h" />
+    <ClInclude Include="Grid.h" />
+    <ClInclude Include="MainWeapon.h" />
+    <ClInclude Include="Resources.h" />
+    <ClInclude Include="RGrid.h" />
+    <ClInclude Include="SpecialMoneyBag.h" />
+    <ClInclude Include="struct.h" />
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="PurpleMoneyBag.h" />
+    <ClInclude Include="Brick.h" />
+    <ClInclude Include="BrickItem.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="BulletManager.h" />
+    <ClInclude Include="CrystalBall.h" />
+    <ClInclude Include="Dagger.h" />
+    <ClInclude Include="DaggerBullet.h" />
+    <ClInclude Include="DynamicObject.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="EffectBrickBroken.h" />
+    <ClInclude Include="EffectDestroyedItem.h" />
+    <ClInclude Include="EffectWaterSplashed.h" />
+    <ClInclude Include="Fishman.h" />
+    <ClInclude Include="GameOverScene.h" />
+    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="Gate.h" />
+    <ClInclude Include="GAudio.h" />
+    <ClInclude Include="GCamera.h" />
+    <ClInclude Include="dsutil.h" />
+    <ClInclude Include="dxutil.h" />
+    <ClInclude Include="Ghost.h" />
+    <ClInclude Include="Ghoul.h" />
+    <ClInclude Include="GInputManager.h" />
+    <ClInclude Include="Ground.h" />
+    <ClInclude Include="EffectManager.h" />
+    <ClInclude Include="GScene.h" />
+    <ClInclude Include="GSystem.h" />
+    <ClInclude Include="HiddenObject.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="HolyWater.h" />
+    <ClInclude Include="InfoManager.h" />
+    <ClInclude Include="LargeHeart.h" />
+    <ClInclude Include="LittleCandle.h" />
+    <ClInclude Include="MoneyBag.h" />
+    <ClInclude Include="ObjectConfig.h" />
+    <ClInclude Include="ObjectManager.h" />
+    <ClInclude Include="Panther.h" />
+    <ClInclude Include="GQuadTree.h" />
+    <ClInclude Include="Bat.h" />
+    <ClInclude Include="QNode.h" />
+    <ClInclude Include="RAnimation.h" />
+    <ClInclude Include="RBaseObject.h" />
+    <ClInclude Include="RCamera.h" />
+    <ClInclude Include="RGameScene.h" />
+    <ClInclude Include="RObject.h" />
+    <ClInclude Include="RObjectManager.h" />
+    <ClInclude Include="RSprite.h" />
+    <ClInclude Include="RTexture.h" />
+    <ClInclude Include="RTiledBG.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="SharedPosition.h" />
+    <ClInclude Include="SmallHeart.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="Stage1_2.h" />
+    <ClInclude Include="Stage2_1.h" />
+    <ClInclude Include="Stage2_2.h" />
+    <ClInclude Include="Stage3.h" />
+    <ClInclude Include="Stair.h" />
+    <ClInclude Include="StartGame.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Stage1_1.h" />
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="GSprite.h" />
+    <ClInclude Include="GTexture.h" />
+    <ClInclude Include="Simon.h" />
+    <ClInclude Include="GTiledBG.h" />
+    <ClInclude Include="Introduction.h" />
+    <ClInclude Include="StaticObject.h" />
+    <ClInclude Include="StatusBar.h" />
+    <ClInclude Include="StopWatch.h" />
+    <ClInclude Include="Text.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="TinyXML\tinystr.h" />
+    <ClInclude Include="TinyXML\tinyxml.h" />
+    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="WhipUpgrade.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="Whip.h" />
+    <ClInclude Include="WhiteMoneyBag.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
